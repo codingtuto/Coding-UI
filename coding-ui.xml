@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html b:css='false' b:responsive='true' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
+<!-- Optimisation du performance du chargement du site -->
+  <link as='font' crossorigin='' href='https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKbgPNyC0ITw.woff2' rel='preload' type='font/woff2'/>
 <!-- Coloration du bandeau sur les navigateur Chrome Opera Bravve.. -->
 <meta content='#1c1f26' name='theme-color'/>
 
