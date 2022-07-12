@@ -4,6 +4,23 @@
 <head>
 <!-- Optimisation du performance du chargement du site -->
   <link as='font' crossorigin='' href='https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKbgPNyC0ITw.woff2' rel='preload' type='font/woff2'/>
+<!-- Optimisation de performance via les DNS -->
+<link href='//fonts.gstatic.com' rel='dns-prefetch'/> 
+  <link href='//1.bp.blogspot.com' rel='dns-prefetch'/> 
+  <link href='//2.bp.blogspot.com' rel='dns-prefetch'/> 
+  <link href='//3.bp.blogspot.com' rel='dns-prefetch'/> 
+  <link href='//4.bp.blogspot.com' rel='dns-prefetch'/> 
+  <link href='//www.blogger.com' rel='dns-prefetch'/> 
+  <link href='//dnjs.cloudflare.com' rel='dns-prefetch'/> 
+  <link href='//pagead2.googlesyndication.com' rel='dns-prefetch'/> 
+  <link href='//www.googletagmanager.com' rel='dns-prefetch'/> 
+  <link href='//www.google-analytics.com' rel='dns-prefetch'/> 
+  <link href='//connect.facebook.net' rel='dns-prefetch'/> 
+  <link href='//c.disquscdn.com' rel='dns-prefetch'/> 
+  <link href='//disqus.com' rel='dns-prefetch'/> 
+  <link href='//www.w3.org' rel='dns-prefetch'/> 
+  <link href='//www.youtube.com' rel='dns-prefetch'/> 
+<link href='//feeds.feedburner.com' rel='dns-prefetch'/>
 <!-- Coloration du bandeau sur les navigateur Chrome Opera Bravve.. -->
 <meta content='#1c1f26' name='theme-color'/>
 
