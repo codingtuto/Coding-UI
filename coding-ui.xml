@@ -2,7 +2,6 @@
 <!DOCTYPE html>
 <html b:css='false' b:responsive='true' b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
 <head>
-
 <!-- Coloration du bandeau sur les navigateur Chrome Opera Bravve.. -->
 <meta content='#1c1f26' name='theme-color'/>
 
@@ -13254,7 +13253,9 @@ error: '<a class="js-load">Coding Team</a>'
     }();
   //]]> </script>
 </b:if>
-
+<!-- Supprimer du panneau de  cookies par défaut que blogger prescrit by @anonymmouscoder -->
+  <script>/*<![CDATA[*/ cookieChoices = {}; /*]]>*/</script>
+<!-- Fin du script -->
 
 </body>
 </html>
