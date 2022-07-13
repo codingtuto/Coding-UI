@@ -17,6 +17,7 @@ Coding UI a un design élégant et épuré, il s'agit d'un thème entièrement r
 - S'abonner au Newsletter
 - Article connexe intégré
 - Aucune connaissance en codage requise
+- <a href="https://github.com/codingtuto/Coding-UI/pull/3">Voir les fonctionnalites 1.2</a>
 #### Technologies utilisées
 
 ```http
