@@ -1,5 +1,7 @@
-# Demonstration
+# Demonstration Version 1.1
 ![Logo](https://telegra.ph/file/68047095b7d4afd5f9f7e.jpg)
+# Demonstration Version 1.2
+![Logo](https://telegra.ph/file/91c098c67f50a418bb3f9.jpg)
 # Coding-UI
 Coding UI a un design élégant et épuré, il s'agit d'un thème entièrement réactif et hautement optimisé avec d'excellentes fonctionnalités de référencement, il peut ajuster automatiquement sa largeur en fonction de la taille de l'écran des utilisateurs ou du type d'appareil. L'optimisation pour la vitesse et le référencement, la barre latérale droite, le style galerie, les coins arrondis, un design exclusif pour Blogger, les publicités prêtes, les colonnes de pied de page, le curseur, les icônes de signet social, le menu déroulant, commentaires filetés bien conçus et page d'erreur 404 personnalisée.
 ## Fonctionnalités
@@ -25,10 +27,14 @@ Coding UI a un design élégant et épuré, il s'agit d'un thème entièrement r
 | :-------- | :------- | :------------------------- |
 | `20% | `50%` | **30%**|
 
-### Mode Jour
+### Mode Jour V1.1
 ![Logo](https://telegra.ph/file/68047095b7d4afd5f9f7e.jpg)
-### Mode Nuit
+### Mode Nuit V1.1
 ![Logo](https://telegra.ph/file/8af257d16dfb785e9d62c.jpg)
+### Mode Jour V1.2
+![Logo](https://telegra.ph/file/91c098c67f50a418bb3f9.jpg)
+### Mode Nuit V1.2
+![Logo](https://telegra.ph/file/28176a87e32b405313bdb.jpg)
 
 ## Contributeurs
 - [Aliou](https://t.me/A_liou)
