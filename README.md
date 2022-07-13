@@ -52,6 +52,9 @@ Ce projet à éte utilisée par les compagnie suivantes:
 - Gallery Travel
 - Archives pro
 - Termux Formation Blog
+- Popy Tech
+- Moussa blogging
+- Blogger agency
 - [Ajouter votre entreprise](https://www.github.com/)
 
 ## License
