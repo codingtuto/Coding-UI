@@ -334,7 +334,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
 ]]></b:template-skin>
 </b:if>
 <script type='text/javascript'>//<![CDATA[
-    var monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    var monthNames = ["Janvier", "Fevrier", "Mars", "Apriv", "Mai", "Juin", "Jullier", "Auat", "Septembre", "Octobre", "November", "Decembre"],
         dateFormat = "{d} {m}, {y}",
         fixedMenu = true,
         fixedSidebar = true,
@@ -2638,9 +2638,9 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
       <!-- Cookie Consent -->
       <div id='vtrick-pro-cookie-ify'>
           <b:section id='vtrick-pro-cookie-ify-section' maxwidgets='1' name='Cookie Popup' showaddelement='no'>
-            <b:widget id='Text1' locked='true' title='$ok={Accept !} $days={7}' type='Text' visible='false'>
+            <b:widget id='Text1' locked='true' title='$ok={Accepter !} $days={7}' type='Text' visible='false'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[Notre site utilise des cookies pour une meilleure expérience utilisateur <a href="https://t.me/codingtuto/">Savoir plus</a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[Nous utilisons des cookies <a href="https://www.vietrick.com/privacy/">Saoir plus</a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -2693,7 +2693,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
     <a class='hide-vtrick-pro-mobile-menu' href='javascript:;' role='button'/>
     <div class='mobile-search'>
       <form class='search-form' expr:action='data:blog.searchUrl' role='search'>
-        <input autocomplete='off' class='search-input' expr:placeholder='data:messages.search' name='q' type='search' value=''/>
+        <input autocomplete='on' class='search-input' expr:placeholder='data:messages.search' name='q' type='search' value=''/>
         <button class='search-action' type='submit' value=''/>
       </form>
     </div>
