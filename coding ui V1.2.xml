@@ -5,6 +5,63 @@
 <head>
 <b:include name='theme-head'/>
 <b:if cond='!data:view.isLayoutMode'>
+ <!--[ Open graph script ]-->
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' property='og:title'/>
+    <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
+    <meta expr:content='data:blog.title.escaped' property='og:site_name'/>
+    <b:if cond='data:view.isMultipleItems'>
+      <meta content='website' property='og:type'/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>         
+        <b:else/>
+        <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' property='og:description'/>
+      </b:if>
+      <b:else/>
+      <meta content='article' property='og:type'/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' property='og:description'/>            
+        <b:else/>
+        <meta expr:content='data:post.snippet.escaped snippet { length: 147, links: false, linebreaks: false, ellipsis: false }' property='og:description'/>
+      </b:if>
+    </b:if>
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' property='og:image:alt'/>
+    <b:if cond='data:blog.postImageUrl'>
+      <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' property='og:image'/>
+      <b:else/>
+      <meta content='Add_your_image_url_here' property='og:image'/>
+    </b:if>
+    
+    <!--[ Carte Twitter]-->
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' name='twitter:title'/>
+    <meta expr:content='data:blog.canonicalUrl' name='twitter:url'/>
+    <b:if cond='data:view.isMultipleItems'>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>         
+        <b:else/>
+        <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title' name='twitter:description'/>
+      </b:if>
+      <b:else/>
+      <b:if cond='data:blog.metaDescription'>
+        <meta expr:content='data:blog.metaDescription.escaped' name='twitter:description'/>            
+        <b:else/>
+        <meta expr:content='data:post.snippet.escaped snippet { length: 147, links: false, linebreaks: false, ellipsis: false }' name='twitter:description'/>
+      </b:if>
+    </b:if>
+    <meta content='summary_large_image' name='twitter:card'/>
+    <meta expr:content='data:blog.pageName.escaped ? data:blog.pageName.escaped : data:blog.title.escaped' name='twitter:image:alt'/>
+    <b:if cond='data:blog.postImageUrl'>
+      <meta expr:content='resizeImage(data:blog.postImageUrl, 0)' name='twitter:image:src'/>
+      <b:else/>
+      <meta content='Add_your_image_url_here' name='twitter:image:src'/>
+    </b:if>
+  
+    <!--[ Site Verification ]-->
+    <meta content='57C3BEB8C1B9A3B9A70F2A79E86A356C' name='msvalidate.01'/> 
+    <meta content='663c365e074975a7' name='yandex-verification'/>
+    <meta content='Coding Team' name='copyright'/> 
+    
+    <!--[ Preconnect and DNS Prefetch ]-->
+    <link href='//1.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//2.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//3.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//4.bp.blogspot.com' rel='preconnect dns-prefetch'/><link href='//blogger.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//lh3.googleusercontent.com' rel='preconnect dns-prefetch'/><link href='//www.blogger.com' rel='preconnect dns-prefetch'/><link href='//feeds.feedburner.com' rel='preconnect dns-prefetch'/><link expr:href='data:blog.homepageUrl.canonical path &quot;feeds/posts/default&quot;' rel='preconnect dns-prefetch'/><link expr:href='data:blog.homepageUrl.canonical path &quot;feeds/comments/default&quot;' rel='preconnect dns-prefetch'/><link href='//cdn.widgetpack.com' rel='preconnect dns-prefetch'/><link href='//translate.google.com' rel='preconnect dns-prefetch'/><link href='//maxcdn.bootstrapcdn.com' rel='preconnect dns-prefetch'/><link href='//fonts.googleapis.com' rel='preconnect dns-prefetch'/><link href='//use.fontawesome.com' rel='preconnect dns-prefetch'/><link href='//ajax.googleapis.com' rel='preconnect dns-prefetch'/><link href='//resources.blogblog.com' rel='preconnect dns-prefetch'/><link href='//ajax.microsoft.com ' rel='preconnect dns-prefetch'/><link href='//ajax.aspnetcdn.com ' rel='preconnect dns-prefetch'/><link href='//github.com' rel='preconnect dns-prefetch'/><link href='//cdn.rawgit.com' rel='preconnect dns-prefetch'/><link href='//cdnjs.cloudflare.com' rel='preconnect dns-prefetch'/><link href='//www.google-analytics.com' rel='preconnect dns-prefetch'/><link href='//themes.googleusercontent.com ' rel='preconnect dns-prefetch'/><link href='//pagead2.googlesyndication.com' rel='preconnect dns-prefetch'/><link href='//googleads.g.doubleclick.net' rel='preconnect dns-prefetch'/><link href='//www.gstatic.com' rel='preconnect dns-prefetch'/><link href='//www.googletagservices.com' rel='preconnect dns-prefetch'/><link href='//static.xx.fbcdn.net' rel='preconnect dns-prefetch'/><link href='//tpc.googlesyndication.com' rel='preconnect dns-prefetch'/><link href='//apis.google.com' rel='preconnect dns-prefetch'/><link href='//www.w3.org' rel='preconnect dns-prefetch'/><link href='//www.facebook.com' rel='preconnect dns-prefetch'/><link href='//connect.facebook.net' rel='preconnect dns-prefetch'/><link href='//disqus.com' rel='preconnect dns-prefetch'/><link href='//plus.google.com' rel='preconnect dns-prefetch'/><link href='//twitter.com' rel='preconnect dns-prefetch'/><link href='//platform.twitter.com' rel='preconnect dns-prefetch'/><link href='//syndication.twitter.com' rel='preconnect dns-prefetch'/><link href='//r.twimg.com ' rel='preconnect dns-prefetch'/><link href='//p.twitter.com ' rel='preconnect dns-prefetch'/><link href='//cdn.api.twitter.com ' rel='preconnect dns-prefetch'/><link href='//www.youtube.com' rel='preconnect dns-prefetch'/><link href='//img.youtube.com' rel='preconnect dns-prefetch'/><link href='//www.pinterest.com' rel='preconnect dns-prefetch'/><link href='//statically.io/' rel='preconnect dns-prefetch'/><link href='//www.linkedin.com' rel='preconnect dns-prefetch'/><link href='//player.vimeo.com' rel='preconnect dns-prefetch'/><link href='//s3.amazonaws.com ' rel='preconnect dns-prefetch'/><link href='//s3.buysellads.com ' rel='preconnect dns-prefetch'/><link href='//stats.buysellads.com ' rel='preconnect dns-prefetch'/><link href='//cdn.adpacks ' rel='preconnect dns-prefetch'/>
 <!-- Theme CSS Style -->
 <b:skin version='1.3.0'><![CDATA[
 
@@ -20,10 +77,10 @@ Demo: https://materielui.blogspot.com/
 <!-- Variable definitions -->
 <Variable name="keycolor" description="Main Color" type="color" default="#1A73E8" value="#1A73E8"/>
 <Group description="Theme Options">
-    <Variable name="darkmode" description="Native Dark Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
+    <Variable name="darkmode" description="Native Dark Mode" type="length" default="0px" min="0px" max="1px" value="1px"/>
     <Variable name="userdarkmode" description="User Dark Mode" type="length" default="1px" min="0px" max="1px" value="1px"/>
     <Variable name="fixedmenu" description="Fixed Menu" type="length" default="1px" min="0px" max="1px" value="1px"/>
-    <Variable name="sidebar" description="Left Sidebar" type="length" default="0px" min="0px" max="1px" value="0px"/>
+    <Variable name="sidebar" description="Left Sidebar" type="length" default="0px" min="0px" max="1px" value="1px"/>
     <Variable name="fixedsidebar" description="Fixed Sidebar" type="length" default="1px" min="0px" max="1px" value="1px"/>
 	<Variable name="postrate" description="Fake post rating" type="length" default="1px" min="0px" max="1px" value="1px"/>
 	<Variable name="blockcode" description="Code Syntax Highlight" type="length" default="1px" min="0px" max="1px" value="1px"/>
@@ -34,13 +91,13 @@ Demo: https://materielui.blogspot.com/
 </Group>
 <Group description="TOC Options">
 	<Variable name="autotoc" description="Auto Table of Content" type="length" default="1px" min="0px" max="1px" value="1px"/>
-	<Variable name="expandtoc" description="Expand Table of Content" type="length" default="0px" min="0px" max="1px" value="0px"/>
+	<Variable name="expandtoc" description="Expand Table of Content" type="length" default="0px" min="0px" max="1px" value="1px"/>
 	<Variable name="pagetoc" description="Enable Auto TOC in Page" type="length" default="0px" min="0px" max="1px" value="1px"/>
 </Group>
 <Group description="Theme Widths">
-    <Variable name="boxed" description="Boxed Mode" type="length" default="0px" min="0px" max="1px" value="0px"/>
+    <Variable name="boxed" description="Boxed Mode" type="length" default="0px" min="0px" max="1px" value="1px"/>
     <Variable name="row.width" description="Container Width" type="length" default="1600px" min="970px" max="1600px" value="1600px"/>
-    <Variable name="sidebar.width" description="Sidebar Width" type="length" default="300px" min="250px" max="336px" value="300px"/>
+    <Variable name="sidebar.width" description="Sidebar Width" type="length" default="300px" min="250px" max="336px" value="306px"/>
 </Group>
 <Group description="Theme Fonts">
 	<Variable name="main.font" description="Site Font" type="font" family="Quicksand" default="normal 400 14px $(family)"  value="normal 400 14px $(family)"/>
@@ -63,8 +120,8 @@ Demo: https://materielui.blogspot.com/
 	<Variable name="accent.color" description="Accent Color" type="color" default="#0066cc"  value="#0066cc"/>
 </Group>
 <Group description="Site Header" selector="#header-wrapper">
-    <Variable name="header.bg" description="Header Background" type="color" default="#FFFFFF" value="#FFFFFF"/>
-    <Variable name="header.color" description="Header Color" type="color" default="$(title.color)" value="#050505"/>
+    <Variable name="header.bg" description="Header Background" type="color" default="#FFFFFF" value="#ffffff"/>
+    <Variable name="header.color" description="Header Color" type="color" default="$(title.color)" value="#202124"/>
     <Variable name="header.hover.color" description="Header Hover Color" type="color" default="$(main.color)" value="#1A73E8"/>
 </Group>
 <Group description="Sub Menu">
@@ -107,14 +164,14 @@ Demo: https://materielui.blogspot.com/
     <Variable name="footerad.onpost" description="Show on Post Page" type="length" default="1px" min="0px" max="1px" value="1px"/>
 </Group>
 <Group description="Theme Footer" selector="#footer-wrapper">
-    <Variable name="footer.bg" description="Footer Background" type="color" default="#5ca2d2" value="#5ca2d2"/>
+    <Variable name="footer.bg" description="Footer Background" type="color" default="#5ca2d2" value="#050505"/>
     <Variable name="footer.color" description="Footer Color" type="color" default="#f6f7f8" value="#f6f7f8"/>
     <Variable name="footer.hover.color" description="Footer Hover Color" type="color" default="$(main.color)" value="#1A73E8"/>
 </Group>
 <Group description="FooterBar" selector=".footerbar">
-    <Variable name="footerbar.bg" description="FooterBar Background" type="color" default="$(footer.bg)" value="#f5f5f7"/>
-    <Variable name="footerbar.color" description="FooterBar Color" type="color" default="$(title.color)" value="#1d1d1f"/>
-    <Variable name="footerbar.hover.color" description="FooterBar Hover Color" type="color" default="$(main.color)" value="#1A73E8"/>
+    <Variable name="footerbar.bg" description="FooterBar Background" type="color" default="$(footer.bg)" value="#050505"/>
+    <Variable name="footerbar.color" description="FooterBar Color" type="color" default="$(title.color)" value="#ffffff"/>
+    <Variable name="footerbar.hover.color" description="FooterBar Hover Color" type="color" default="$(main.color)" value="#ff7a18"/>
 </Group>
 <Group description="Cookie Consent" selector="#gnews-pro-cookie-ify">
     <Variable name="cookie.bg" description="Cookie Background" type="color" default="#FFFFFF" value="#FFFFFF"/>
@@ -128,10 +185,10 @@ Demo: https://materielui.blogspot.com/
 </Group>
 <Group description="Theme Fonts (Reset)">
     <!-- Site Font -->
-    <Variable name="mainfont.italic" description="Main Font Italic" type="font" default="italic 400 14px $(main.font.family)" value="italic 400 14px $(family)"/>
-    <Variable name="mainfont.medium" description="Main Font Medium" type="font" default="normal 500 14px $(main.font.family)" value="normal 500 14px $(family)"/>
-    <Variable name="mainfont.mediumitalic" description="Main Font Medium Italic" type="font" default="italic 500 14px $(main.font.family)" value="italic 500 14px $(family)"/>
-    <Variable name="mainfont.bold" description="Main Font Bold" type="font" default="normal 700 14px $(main.font.family)" value="normal 700 14px $(family)"/>
+    <Variable name="mainfont.italic" description="Main Font Italic" type="font" default="italic 400 14px $(main.font.family)" value="italic 400 14px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+    <Variable name="mainfont.medium" description="Main Font Medium" type="font" default="normal 500 14px $(main.font.family)" value="normal 500 14px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+    <Variable name="mainfont.mediumitalic" description="Main Font Medium Italic" type="font" default="italic 500 14px $(main.font.family)" value="italic 500 14px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
+    <Variable name="mainfont.bold" description="Main Font Bold" type="font" default="normal 700 14px $(main.font.family)" value="normal 700 14px &#39;Times New Roman&#39;, Times, FreeSerif, serif"/>
     <Variable name="mainfont.bolditalic" description="Main Font Bold Italic" type="font" default="italic 700 14px $(main.font.family)" value="italic 700 14px $(family)"/>
     <!-- Menu Font -->
     <Variable name="menufont.italic" description="Menu Font Italic" type="font" default="italic 400 14px $(menu.font.family)" value="italic 400 14px $(family)"/>
