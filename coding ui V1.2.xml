@@ -793,7 +793,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
 	<!-- Hero Wrapper -->
 	<div class='flex-center' id='hero-wrapper'>
 	<b:section class='hero-post container row-x1' id='hero-post' maxwidgets='2' name='Recommandée' showaddelement='yes'>
-<b:widget id='FeaturedPost1' locked='false' title='Post recommandée' type='FeaturedPost' version='2' visible='false'>
+<b:widget id='FeaturedPost1' locked='false' title='Post recommandée' type='FeaturedPost' version='2' visible='true'>
   <b:widget-settings>
     <b:widget-setting name='showSnippet'>true</b:widget-setting>
     <b:widget-setting name='showPostTitle'>true</b:widget-setting>
@@ -1473,7 +1473,41 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
       <!-- Main Wrapper -->
       <main id='main-wrapper'>
         <b:class cond='(data:view.isHomepage and (data:widgets any w =&gt; w.sectionId == &quot;content-section-2&quot;))' name='has-cs2'/>
-         <b:section class='content-section' cond='data:view.isLayoutMode or (data:view.isHomepage and (data:widgets any w =&gt; w.sectionId == &quot;content-section-1&quot;))' id='content-section-1' name='Section 1' showaddelement='yes'/>
+         <b:section class='content-section' cond='data:view.isLayoutMode or (data:view.isHomepage and (data:widgets any w =&gt; w.sectionId == &quot;content-section-1&quot;))' id='content-section-1' name='Section 1' showaddelement='yes'>
+           <b:widget id='HTML8' locked='false' title='Effet Arc en ciel' type='HTML' visible='true'>
+             <b:widget-settings>
+               <b:widget-setting name='content'>&lt;style&gt;
+/* hhh */ .animeTWD,.animeBlurTWD{position:fixed;width:100%;bottom:0;left:0;right:0;height:3px;z-index:23;background:linear-gradient(-45deg, #4086F4, #31A952, #FBBE01, #EB4132,#4086F4, #31A952, #FBBE01, #EB4132);background-size:200%;-webkit-animation:animeBar 5s linear infinite;animation:animeBar 5s linear infinite}.animeBlurTWD{height:10px;z-index:22;filter:blur(10px);opacity:.7}@-webkit-keyframes animeBar{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}@keyframes animeBar{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+&lt;/style&gt;
+&lt;!--[ Bottom Bar Animation by Tech With Deo ]--&gt;
+&lt;div class=&#39;animeTWD&#39;&gt;
+  &lt;div class=&#39;animeBlurTWD&#39;&gt;
+  &lt;/div&gt;
+&lt;/div&gt;</b:widget-setting>
+             </b:widget-settings>
+             <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+           </b:widget>
+           <b:widget id='HTML7' locked='false' title='Effet de coeur' type='HTML' visible='true'>
+             <b:widget-settings>
+               <b:widget-setting name='content'>&lt;script type=&quot;text/javascript&quot;&gt;
+  //&lt;![CDATA[
+    !function(e,t,a){function n(){c(&quot;.heart{width: 10px;height: 10px;position: fixed;background: #f00;transform: rotate(45deg);-webkit-transform: rotate(45deg);-moz-transform: rotate(45deg);}.heart:after,.heart:before{content: &#39;&#39;;width: inherit;height: inherit;background: inherit;border-radius: 50%;-webkit-border-radius: 50%;-moz-border-radius: 50%;position: fixed;}.heart:after{top: -5px;}.heart:before{left: -5px;}&quot;),o(),r()}function r(){for(var e=0;e&lt;d.length;e++)d[e].alpha&lt;=0?(t.body.removeChild(d[e].el),d.splice(e,1)):(d[e].y--,d[e].scale+=.004,d[e].alpha-=.013,d[e].el.style.cssText=&quot;left:&quot;+d[e].x+&quot;px;top:&quot;+d[e].y+&quot;px;opacity:&quot;+d[e].alpha+&quot;;transform:scale(&quot;+d[e].scale+&quot;,&quot;+d[e].scale+&quot;) rotate(45deg);background:&quot;+d[e].color+&quot;;z-index:99999&quot;);requestAnimationFrame(r)}function o(){var t=&quot;function&quot;==typeof e.onclick&amp;&amp;e.onclick;e.onclick=function(e){t&amp;&amp;t(),i(e)}}function i(e){var a=t.createElement(&quot;div&quot;);a.className=&quot;heart&quot;,d.push({el:a,x:e.clientX-5,y:e.clientY-5,scale:1,alpha:1,color:s()}),t.body.appendChild(a)}function c(e){var a=t.createElement(&quot;style&quot;);a.type=&quot;text/css&quot;;try{a.appendChild(t.createTextNode(e))}catch(t){a.styleSheet.cssText=e}t.getElementsByTagName(&quot;head&quot;)[0].appendChild(a)}function s(){return&quot;rgb(&quot;+~~(255*Math.random())+&quot;,&quot;+~~(255*Math.random())+&quot;,&quot;+~~(255*Math.random())+&quot;)&quot;}var d=[];e.requestAnimationFrame=function(){return e.requestAnimationFrame||e.webkitRequestAnimationFrame||e.mozRequestAnimationFrame||e.oRequestAnimationFrame||e.msRequestAnimationFrame||function(e){setTimeout(e,1e3/60)}}(),n()}(window,document);
+  //]]&gt;
+&lt;/script&gt;</b:widget-setting>
+             </b:widget-settings>
+             <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+           </b:widget>
+         </b:section>
         <b:section class='main' id='main' maxwidgets='1' name='Postes' showaddelement='yes'>
           <b:widget id='Blog1' locked='true' title='Articles du blog' type='Blog' version='2' visible='true'>
             <b:widget-settings>
@@ -2264,7 +2298,7 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
           </b:widget>
         </b:section>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets any w =&gt; w.sectionId == &quot;vtrick-pro-post-footer-ads&quot;))' id='vtrick-pro-post-footer-ads' maxwidgets='1' name='Gadget 3' showaddelement='yes'>
-          <b:widget id='HTML4' locked='false' title='' type='HTML' visible='false'>
+          <b:widget id='HTML4' locked='false' title='Iklan Tengah Posting' type='HTML' visible='false'>
             <b:widget-settings>
               <b:widget-setting name='content'>&lt;div style=&quot;background:var(--content-bg);padding:0.5rem;border-radius:8px&quot;&gt;
 &lt;a style=&quot;height:100%;border:none;box-shadow:var(--card-shadow)&quot; class=&quot;ads-here entry-image-wrap&quot; href=&quot;https://team-codeur.blogspot.com&quot; &gt;&lt;svg class=&quot;entry-thumb&quot; data-image=&quot;https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=2000&quot; viewbox=&quot;0 0 16 9&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
@@ -2524,7 +2558,56 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
         </b:section>
 		
 		<b:section class='vtrick-pro-col2-section' id='vtrick-pro-col2-section' maxwidgets='3' name='Footer col2' showaddelement='yes'>
-<b:widget id='HTML3' locked='false' title='' type='HTML' version='2' visible='false'>
+<b:widget id='HTML5' locked='false' title='' type='HTML' visible='true'>
+  <b:widget-settings>
+    <b:widget-setting name='content'>&lt;style&gt;
+/* Cookies Consent Notice by Coding */
+.ckWrap{position:fixed;right:0;left:0;bottom:-600px;z-index:50;width:100%;padding:20px;background:rgba(255, 255, 255, 0.8);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-radius:30px 30px 0 0;box-shadow:0 -10px 25px -5px rgba(0,0,0,.1);align-items:center;justify-content:center;text-align:center;animation:ckUp 2.5s forwards;animation-delay:1s;-webkit-animation:ckUp 2.5s forwards;-webkit-animation-delay:1s}
+.ckWrap.acptd{animation:ckDn 2.5s backwards;animation-delay:.3s;-webkit-animation:ckDn 2.5s backwards;-webkit-animation-delay:.3s}
+.ckWrap.hidden{display:none}
+.ckWrap .ckCont svg{width:50px;height:50px;fill:#08102b;stroke:#08102b;stroke-width:.8}
+.ckCont h2{margin:0;color:#08102b;font-size:1.5rem;font-weight:800;font-family:inherit}
+.ckCont p{margin:10px 0;line-height:1.7em;color:#08102b;font-size:0.9rem;font-weight:400;font-family:inherit}
+.ckWrap .btn{display:inline-flex;align-items:center;margin:0;padding:10px 15px;outline:0;border:0;border-radius:2px;line-height:20px;color:#fefefe;background-color:#482dff;font-size:13px;font-family:inherit;text-decoration:none;white-space:nowrap;overflow:hidden;max-width:100%;cursor:pointer;transition:all 0.3s ease}
+.ckWrap .btn:hover{opacity:.8;transform:scale(0.97)}
+.ckWrap .btn.outl{color:#08102b;margin-left:8px;background-color:transparent;border:1px solid #767676}
+.ckWrap .btn.outl:hover{border-color:#482dff}
+@media screen and (min-width:768px){.ckWrap{max-width:450px;border-radius:10px;left:auto;right:30px;bottom:-500px;box-shadow:0 5px 35px rgba(0,0,0,.1);animation:ckdeskUp 2.5s forwards;animation-delay:1s;-webkit-animation:ckdeskUp 2.5s forwards;-webkit-animation-delay:1s}.ckWrap.acptd{animation:ckdeskDn 2.5s backwards;animation-delay:.3s;-webkit-animation:ckdeskDn 2.5s backwards;-webkit-animation-delay:0.3s}}
+@-webkit-keyframes ckUp{100%{bottom:0}}
+@keyframes ckUp{100%{bottom:0}}
+@-webkit-keyframes ckdeskUp{100%{bottom:30px}}
+@keyframes ckdeskUp{100%{bottom:30px}}
+@-webkit-keyframes ckDn{0%{bottom:0}100%{bottom:-600px}}
+@keyframes ckDn{0%{bottom:0}100%{bottom:-600px}}
+@-webkit-keyframes ckdeskDn{0%{bottom:30px}100%{bottom:-600px}}
+@keyframes ckdeskDn{0%{bottom:30px}100%{bottom:-600px}}
+.darkMode .ckWrap{background:rgba(50, 50, 50, 0.8)}
+.darkMode .ckWrap .ckCont svg{fill:#fefefe;stroke:#fefefe}
+.darkMode .ckCont h2, .darkMode .ckCont p, .darkMode .btn.outl{color:#fefefe}
+&lt;/style&gt;
+&lt;!--[ Cookies Consent Notice ]--&gt;
+&lt;div class=&#39;ckWrap hidden&#39; id=&#39;ckBox&#39;&gt;
+  &lt;div class=&#39;ckCont&#39;&gt;
+    &lt;!--[ Cookies Icon ]--&gt;
+    &lt;svg viewbox=&#39;0 0 50 50&#39;&gt;&lt;path d=&#39;M 25 4 C 13.414063 4 4 13.414063 4 25 C 4 36.585938 13.414063 46 25 46 C 36.585938 46 46 36.585938 46 25 C 46 24.378906 45.960938 23.78125 45.910156 23.203125 C 45.878906 22.855469 45.671875 22.546875 45.359375 22.390625 C 45.042969 22.234375 44.671875 22.253906 44.375 22.441406 C 43.824219 22.792969 43.191406 23 42.5 23 C 41.015625 23 39.769531 22.082031 39.253906 20.792969 C 39.148438 20.527344 38.933594 20.320313 38.667969 20.222656 C 38.398438 20.125 38.101563 20.144531 37.847656 20.28125 C 37.003906 20.738281 36.035156 21 35 21 C 31.675781 21 29 18.324219 29 15 C 29 13.964844 29.261719 12.996094 29.71875 12.152344 C 29.855469 11.898438 29.875 11.601563 29.777344 11.332031 C 29.679688 11.066406 29.472656 10.851563 29.207031 10.746094 C 27.917969 10.230469 27 8.984375 27 7.5 C 27 6.808594 27.207031 6.175781 27.558594 5.625 C 27.746094 5.328125 27.765625 4.957031 27.609375 4.640625 C 27.453125 4.328125 27.144531 4.121094 26.796875 4.089844 C 26.21875 4.039063 25.621094 4 25 4 Z M 38 4 C 36.894531 4 36 4.894531 36 6 C 36 7.105469 36.894531 8 38 8 C 39.105469 8 40 7.105469 40 6 C 40 4.894531 39.105469 4 38 4 Z M 25 6 C 25.144531 6 25.292969 6.015625 25.4375 6.023438 C 25.285156 6.519531 25 6.953125 25 7.5 C 25 9.4375 26.136719 10.984375 27.660156 11.960938 C 27.269531 12.90625 27 13.917969 27 15 C 27 19.40625 30.59375 23 35 23 C 36.082031 23 37.09375 22.730469 38.039063 22.339844 C 39.015625 23.863281 40.5625 25 42.5 25 C 43.046875 25 43.480469 24.714844 43.980469 24.5625 C 43.984375 24.707031 44 24.855469 44 25 C 44 35.503906 35.503906 44 25 44 C 14.496094 44 6 35.503906 6 25 C 6 14.496094 14.496094 6 25 6 Z M 36.5 12 C 35.671875 12 35 12.671875 35 13.5 C 35 14.328125 35.671875 15 36.5 15 C 37.328125 15 38 14.328125 38 13.5 C 38 12.671875 37.328125 12 36.5 12 Z M 21.5 15 C 20.671875 15 20 15.671875 20 16.5 C 20 17.328125 20.671875 18 21.5 18 C 22.328125 18 23 17.328125 23 16.5 C 23 15.671875 22.328125 15 21.5 15 Z M 45 15 C 44.449219 15 44 15.449219 44 16 C 44 16.550781 44.449219 17 45 17 C 45.550781 17 46 16.550781 46 16 C 46 15.449219 45.550781 15 45 15 Z M 15 20 C 13.34375 20 12 21.34375 12 23 C 12 24.65625 13.34375 26 15 26 C 16.65625 26 18 24.65625 18 23 C 18 21.34375 16.65625 20 15 20 Z M 24.5 24 C 23.671875 24 23 24.671875 23 25.5 C 23 26.328125 23.671875 27 24.5 27 C 25.328125 27 26 26.328125 26 25.5 C 26 24.671875 25.328125 24 24.5 24 Z M 17 31 C 15.894531 31 15 31.894531 15 33 C 15 34.105469 15.894531 35 17 35 C 18.105469 35 19 34.105469 19 33 C 19 31.894531 18.105469 31 17 31 Z M 30.5 32 C 29.121094 32 28 33.121094 28 34.5 C 28 35.878906 29.121094 37 30.5 37 C 31.878906 37 33 35.878906 33 34.5 C 33 33.121094 31.878906 32 30.5 32 Z&#39;/&gt;&lt;/path&gt;&lt;/svg&gt;
+    &lt;!--[ Cookies Notice Heading ]--&gt;
+    &lt;h2&gt;Les cookies&lt;/h2&gt;
+    &lt;!--[ Cookies Notice Detail ]--&gt;
+    &lt;p&gt;Nous utilisons des cookies et d&#39;autres technologies de suivi pour améliorer votre expérience de navigation sur notre site, pour vous montrer un contenu personnalisé et des publicités ciblées, pour analyser le trafic de notre site et pour comprendre la provenance de nos visiteurs.&lt;/p&gt;
+  &lt;/div&gt;
+  &lt;button class=&#39;btn&#39; id=&#39;ckAcptBtn&#39;&gt;Accepter&lt;/button&gt;
+  &lt;a class=&#39;btn outl&#39; href=&#39;https://policies.google.com/technologies/cookies&#39;&gt;En savoir plus&lt;/a&gt;
+&lt;/div&gt;
+&lt;script&gt;/*&lt;![CDATA[*/ /* Cookies Consent Notice Script by Ali */ var ckBox=document.querySelector(&quot;#ckBox&quot;),ckAcptBtn=document.querySelector(&quot;#ckAcptBtn&quot;),ckErrMes=&quot;Cookie can&#39;t be set! Please unblock this site from the cookie setting of your browser.&quot;;if(null!=ckBox){ckAcptBtn.onclick=()=&gt;{document.cookie=&quot;CookieConsentByFineshop=Accepted; max-age=2592000; path=/&quot;,document.cookie?ckBox.classList.add(&quot;acptd&quot;):alert(ckErrMes)};let e=document.cookie.indexOf(&quot;CookieConsentByFineshop=Accepted&quot;);-1!=e?ckBox.classList.add(&quot;hidden&quot;):ckBox.classList.remove(&quot;hidden&quot;)} /*]]&gt;*/&lt;/script&gt;</b:widget-setting>
+  </b:widget-settings>
+  <b:includable id='main'>
+  <b:include name='widget-title'/>
+  <div class='widget-content'>
+    <data:content/>
+  </div>
+</b:includable>
+</b:widget>
+<b:widget id='HTML3' locked='false' title='Poste' type='HTML' visible='false'>
   <b:widget-settings>
     <b:widget-setting name='content'>&lt;div style=&quot;background:var(--content-bg);padding:0.5rem;border-radius:8px&quot;&gt;
 &lt;a style=&quot;height:100%;border:none;box-shadow:var(--card-shadow)&quot; class=&quot;ads-here entry-image-wrap&quot; href=&quot;https://team-codeur.blogspot.com&quot; &gt;&lt;svg class=&quot;entry-thumb&quot; data-image=&quot;https://cdn.dribbble.com/users/1787323/screenshots/9332892/media/7139d5a1922967dd33666e884387eca4.png?compress=1&amp;resize=400x300&amp;vertical=top&quot; viewbox=&quot;0 0 16 9&quot;/&gt;&lt;/svg&gt;&lt;/a&gt;
@@ -2638,9 +2721,9 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
       <!-- Cookie Consent -->
       <div id='vtrick-pro-cookie-ify'>
           <b:section id='vtrick-pro-cookie-ify-section' maxwidgets='1' name='Cookie Popup' showaddelement='no'>
-            <b:widget id='Text1' locked='true' title='$ok={Accepter !} $days={7}' type='Text' visible='false'>
+            <b:widget id='Text1' locked='true' title='A ne pas activer' type='Text' visible='false'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[Nous utilisons des cookies <a href="https://www.vietrick.com/privacy/">Saoir plus</a>]]></b:widget-setting>
+                <b:widget-setting name='content'/>
               </b:widget-settings>
               <b:includable id='main'>
   <b:include name='widget-title'/>
@@ -2674,7 +2757,12 @@ body#layout #vtrick-pro-cta2-section > h4:after{content:' - Bouton pour action'}
           </b:section>
 		  
 		  <b:section id='vtrick-pro-cta2-section' maxwidgets='1' name='Options développeur' showaddelement='no'>
-<b:widget id='LinkList106' locked='true' title='Boutton ( a ne pas activer)' type='LinkList' version='2' visible='false'>
+<b:widget id='LinkList106' locked='true' title='Boutton pour les icones' type='LinkList' version='2' visible='true'>
+  <b:widget-settings>
+    <b:widget-setting name='sorting'>NONE</b:widget-setting>
+    <b:widget-setting name='text-0'>telegram</b:widget-setting>
+    <b:widget-setting name='link-0'>https://t.me/codingtuto</b:widget-setting>
+  </b:widget-settings>
   <b:includable id='main' var='this'>
 				<b:include name='widget-title'/>
 					<b:include name='content'/>
