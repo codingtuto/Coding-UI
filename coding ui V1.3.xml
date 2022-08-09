@@ -311,7 +311,7 @@ main > *:not(:last-child), .sidebar > *:not(:last-child){margin-bottom:40px}
 .header .navicon .nav i:nth-child(3){width:60%;background-color:$(link.bg.colors);margin:4px 0 0 auto}
 .header .navicon .nav.home{display:none}
 .header .navicon .dark-switch{display:flex;align-items:center;width:auto;font-size:11px;color:$(text.colors);white-space:nowrap}
-.header .navicon .dark-switch:before{content:'Dark mode'}
+.header .navicon .dark-switch:before{content:'Mode nuit'}
 .header .navicon .dark-switch i{position:relative;margin-left:8px;width:30px;height:10px;border-radius:8px;background-color:rgba(0,0,0,.15)}
 .header .navicon .dark-switch i:before{content:'';display:block;position:absolute;top:-4px;left:0;width:18px;height:18px;border-radius:50%;background-color:$(link.bg.colors);-webkit-transition:all .2s ease;transition:all .2s ease}
 .header .navicon .navSearch{margin-left:15px;display:none}
@@ -564,7 +564,7 @@ main > *:not(:last-child), .sidebar > *:not(:last-child){margin-bottom:40px}
 .Blog .spoiler .spoiler-input:checked + .spoiler-judul + .spoiler-isi{max-height:1000vh;margin-top:1em}
 
 .Blog .post-font > span, .Blog .post-shareIcon label{margin-left:7px}
-.Blog .post-font .post-fontContainer ul:before{content:'Change text size'}
+.Blog .post-font .post-fontContainer ul:before{content:'Changer la taille du texte'}
 .Blog .post-font .post-fontContainer li{width:33.333%;text-align:center}
 .Blog .post-font .post-fontContainer li label{display:block;margin:0 auto;cursor:pointer}
 .Blog .post-font .post-fontContainer li label:before{content:'A';font-size:35px;font-weight:700;font-family:$(heading.font);color:#ddd;line-height:60px}
@@ -1203,7 +1203,7 @@ main{padding-right:25px}
               <label for='offtoc-menu'>
                 <span class='show'><svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(3.000000, 2.000000)'><path d='M12.8534107,-1.95399252e-14 C16.0667634,-1.95399252e-14 17.9912917,1.95143488 18,5.20971302 L18,5.20971302 L18,14.790287 C18,18.0485651 16.08418,20 12.862119,20 L12.862119,20 L10.0058055,20 C9.63949884,19.9590452 9.36223544,19.6452022 9.36223544,19.2715232 C9.36223544,18.8978441 9.63949884,18.5840011 10.0058055,18.5430464 L10.0058055,18.5430464 L12.8534107,18.5430464 C15.3091437,18.5430464 16.5457184,17.2803532 16.5457184,14.790287 L16.5457184,14.790287 L16.5457184,5.20971302 C16.5457184,2.7196468 15.3091437,1.45695364 12.8534107,1.45695364 L12.8534107,1.45695364 L5.13788099,1.45695364 C2.68214804,1.45695364 1.43686502,2.7196468 1.43686502,5.20971302 L1.43686502,5.20971302 L1.43686502,14.790287 C1.43686502,17.2803532 2.68214804,18.5430464 5.13788099,18.5430464 C5.50418766,18.5840011 5.78145107,18.8978441 5.78145107,19.2715232 C5.78145107,19.6452022 5.50418766,19.9590452 5.13788099,20 C1.9245283,20 -3.55271368e-15,18.0485651 -3.55271368e-15,14.790287 L-3.55271368e-15,14.790287 L-3.55271368e-15,5.20971302 C-3.55271368e-15,1.94260486 1.9245283,-1.95399252e-14 5.13788099,-1.95399252e-14 L5.13788099,-1.95399252e-14 Z M12.5921626,13.5099338 C12.9865372,13.5099338 13.3062409,13.8341073 13.3062409,14.2339956 C13.3062409,14.6338839 12.9865372,14.9580574 12.5921626,14.9580574 L12.5921626,14.9580574 L5.38171263,14.9580574 C4.98733803,14.9580574 4.66763425,14.6338839 4.66763425,14.2339956 C4.66763425,13.8341073 4.98733803,13.5099338 5.38171263,13.5099338 L5.38171263,13.5099338 Z M12.5921626,9.27152318 C12.8677202,9.24071456 13.1363773,9.37243477 13.283685,9.61057053 C13.4309927,9.84870629 13.4309927,10.1512937 13.283685,10.3894295 C13.1363773,10.6275652 12.8677202,10.7592854 12.5921626,10.7284768 L12.5921626,10.7284768 L5.38171263,10.7284768 C5.01540595,10.687522 4.73814255,10.373679 4.73814255,10 C4.73814255,9.62632096 5.01540595,9.31247796 5.38171263,9.27152318 L5.38171263,9.27152318 Z M8.13352685,5.0419426 C8.49983352,5.08289739 8.77709693,5.39674039 8.77709693,5.77041943 C8.77709693,6.14409846 8.49983352,6.45794146 8.13352685,6.49889625 L8.13352685,6.49889625 L5.3904209,6.49889625 C5.02411423,6.45794146 4.74685082,6.14409846 4.74685082,5.77041943 C4.74685082,5.39674039 5.02411423,5.08289739 5.3904209,5.0419426 L5.3904209,5.0419426 Z'/></g></svg></span>
                 <!-- Judul Toc -->
-                <span class='title'>Table of contents</span>
+                <span class='title'>Sommaires</span>
                 <svg class='drop' viewBox='0 0 512 512'><path d='M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z'/></svg>
               </label>
             </div>
@@ -1792,7 +1792,7 @@ main{padding-right:25px}
           </div>
           <!-- Header Widget -->
           <b:section id='header-widget' maxwidgets='1' showaddelement='false'>
-            <b:widget id='Header00' locked='true' title='test blogger (Header)' type='Header' version='2' visible='true'>
+            <b:widget id='Header00' locked='true' title='Mac Tech (en-tête)' type='Header' version='2' visible='true'>
               <b:widget-settings>
                 <b:widget-setting name='displayUrl'/>
                 <b:widget-setting name='displayHeight'>0</b:widget-setting>
@@ -1839,7 +1839,7 @@ main{padding-right:25px}
           <!-- Search Form -->
           <div class='searchbar'>
             <form class='search-form' expr:action='data:blog.homepageUrl + &quot;search&quot;' id='search-form' method='get'>
-              <input aria-label='Search' autocomplete='off' class='search-input' id='search-input' name='q' placeholder='e.g. best place in india' type='text'/>
+              <input aria-label='Search' autocomplete='off' class='search-input' id='search-input' name='q' placeholder='Chercher ici' type='text'/>
               <button aria-label='Search Button' class='search-button' role='button' type='submit'>
                 <svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(2.000000, 2.000000)'><path d='M19.7555474,18.6065254 L16.3181544,15.2458256 L16.3181544,15.2458256 L16.2375905,15.1233001 C16.0877892,14.9741632 15.8829641,14.8901502 15.6691675,14.8901502 C15.4553709,14.8901502 15.2505458,14.9741632 15.1007444,15.1233001 L15.1007444,15.1233001 C12.1794834,17.8033337 7.6781476,17.94901 4.58200492,15.4637171 C1.48586224,12.9784243 0.75566836,8.63336673 2.87568494,5.31016931 C4.99570152,1.9869719 9.30807195,0.716847023 12.9528494,2.34213643 C16.5976268,3.96742583 18.4438102,7.98379036 17.2670181,11.7275931 C17.182269,11.9980548 17.25154,12.2921761 17.4487374,12.4991642 C17.6459348,12.7061524 17.9410995,12.794561 18.223046,12.7310875 C18.5049924,12.667614 18.7308862,12.4619014 18.8156353,12.1914397 L18.8156353,12.1914397 C20.2223941,7.74864367 18.0977423,2.96755391 13.8161172,0.941057725 C9.53449216,-1.08543846 4.38083811,0.250823958 1.68905427,4.08541671 C-1.00272957,7.92000947 -0.424820906,13.1021457 3.0489311,16.2795011 C6.5226831,19.4568565 11.8497823,19.6758854 15.5841278,16.7948982 L18.6276529,19.7705177 C18.9419864,20.0764941 19.4501654,20.0764941 19.764499,19.7705177 C20.0785003,19.4602048 20.0785003,18.9605974 19.764499,18.6502845 L19.764499,18.6502845 L19.7555474,18.6065254 Z'/></g></svg>
               </button>
@@ -1860,7 +1860,7 @@ main{padding-right:25px}
         
         <!-- Iklan Billboard -->
         <b:section cond='data:view.isMultipleItems and !data:view.isPreview' id='large-ads' maxwidgets='1' showaddelement='true'>
-          <b:widget id='HTML001' locked='true' title='Ads Area' type='HTML' version='2' visible='true'>
+          <b:widget id='HTML001' locked='true' title='Ads Area' type='HTML' version='2' visible='false'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<!-- replace all the code here with your ad code --><div class='ads-here'><i class='ads-img'></i><i class='ads-content'></i><i class='ads-button'></i></div>]]></b:widget-setting>
             </b:widget-settings>
@@ -1886,7 +1886,7 @@ main{padding-right:25px}
                     </div>
                   </b:includable>
                 </b:widget>
-                <b:widget cond='data:view.isHomepage' id='HTML003' locked='true' title='Slideshow' type='HTML' version='2' visible='true'>
+                <b:widget cond='data:view.isHomepage' id='HTML003' locked='true' title='Slideshow' type='HTML' version='2' visible='false'>
                   <b:widget-settings>
                     <b:widget-setting name='content'/>
                   </b:widget-settings>
@@ -1957,13 +1957,13 @@ main{padding-right:25px}
                     </div>
                   </b:includable>
                 </b:widget>
-                <b:widget cond='data:view.isHomepage' id='FeaturedPost00' locked='false' title='Trending' type='FeaturedPost' version='2' visible='true'>
+                <b:widget cond='data:view.isHomepage' id='FeaturedPost00' locked='false' title='Tendances' type='FeaturedPost' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='showSnippet'>true</b:widget-setting>
                     <b:widget-setting name='showPostTitle'>true</b:widget-setting>
                     <b:widget-setting name='postId'>8610563614583717113</b:widget-setting>
                     <b:widget-setting name='showFirstImage'>true</b:widget-setting>
-                    <b:widget-setting name='useMostRecentPost'>false</b:widget-setting>
+                    <b:widget-setting name='useMostRecentPost'>true</b:widget-setting>
                   </b:widget-settings>
                   <b:includable id='main' var='this'>
                     <b:if cond='data:title != &quot;&quot;'>
@@ -2075,7 +2075,7 @@ main{padding-right:25px}
               
               <!-- Widget utama -->
               <b:section id='main-widget' showaddelement='true'>
-                <b:widget id='Blog00' locked='true' title='Blog Posts' type='Blog' version='2' visible='true'>
+                <b:widget id='Blog00' locked='true' title='Articles du blog' type='Blog' version='2' visible='true'>
                   <b:widget-settings>
                     <b:widget-setting name='showDateHeader'>false</b:widget-setting>
                     <b:widget-setting name='commentLabel'>Komentar</b:widget-setting>
@@ -2085,11 +2085,11 @@ main{padding-right:25px}
                     <b:widget-setting name='showCommentLink'>true</b:widget-setting>
                     <b:widget-setting name='style.urlcolor'>#4d4d4d</b:widget-setting>
                     <b:widget-setting name='showAuthor'>true</b:widget-setting>
-                    <b:widget-setting name='disableGooglePlusShare'>true</b:widget-setting>
                     <b:widget-setting name='style.linkcolor'>#505050</b:widget-setting>
                     <b:widget-setting name='style.unittype'>TextAndImage</b:widget-setting>
                     <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
                     <b:widget-setting name='timestampLabel'>Pada</b:widget-setting>
+                    <b:widget-setting name='reactionsLabel'/>
                     <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
                     <b:widget-setting name='style.layout'>1x1</b:widget-setting>
                     <b:widget-setting name='showLabels'>true</b:widget-setting>
@@ -2501,7 +2501,7 @@ main{padding-right:25px}
                           <li>
                             <!-- Salin link -->
                             <div onclick='copyFunction()'>
-                              <svg class='line' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><rect height='13' rx='2' ry='2' width='13' x='9' y='9'/><path d='M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'/></svg><span>Copy link</span>
+                              <svg class='line' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><rect height='13' rx='2' ry='2' width='13' x='9' y='9'/><path d='M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1'/></svg><span>Copier le lien</span>
                             </div>
                             <input expr:value='data:blog.url' id='getlink' readonly='readonly' type='text'/>
                             <div class='share-notif' id='share-notif'/>
@@ -2711,7 +2711,7 @@ main{padding-right:25px}
                     </div>
                   </b:includable>
                 </b:widget>
-                <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML4' locked='true' title='Post Middle Ads' type='HTML' version='2' visible='true'>
+                <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML4' locked='true' title='Post Middle Ads' type='HTML' version='2' visible='false'>
                   <b:widget-settings>
                     <b:widget-setting name='content'><![CDATA[<!-- replace all the code here with your ad code --><div class='ads-here' style='min-height:100px'><i class='ads-img' style='width:100%'></i></div>]]></b:widget-setting>
                   </b:widget-settings>
@@ -2722,7 +2722,7 @@ main{padding-right:25px}
                     </div>
                   </b:includable>
                 </b:widget>
-                <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML2' locked='true' title='Ad Top Post' type='HTML' version='2' visible='true'>
+                <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML2' locked='true' title='Ad Top Post' type='HTML' version='2' visible='false'>
                   <b:widget-settings>
                     <b:widget-setting name='content'><![CDATA[<!-- replace all the code here with your ad code <div class='ads-here text' style='min-height:80px'><div class='ads-text'><i></i><i></i><i></i><i></i></div></div> --->]]></b:widget-setting>
                   </b:widget-settings>
@@ -2733,7 +2733,7 @@ main{padding-right:25px}
                     </div>
                   </b:includable>
                 </b:widget>
-                <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML3' locked='true' title='Ads Under Post' type='HTML' version='2' visible='true'>
+                <b:widget cond='data:view.isPost and !data:view.isPreview' id='HTML3' locked='true' title='Ads Under Post' type='HTML' version='2' visible='false'>
                   <b:widget-settings>
                     <b:widget-setting name='content'><![CDATA[<div class='ads-here' style='min-height:100px'><i class='ads-img' style='width:100%'></i></div>]]></b:widget-setting>
                   </b:widget-settings>
@@ -2748,7 +2748,7 @@ main{padding-right:25px}
               
               <!-- Widget slot tambahan -->
               <b:section cond='data:view.isMultipleItems' id='add-widget' maxwidgets='3' showaddelement='true'>
-                <b:widget cond='!data:view.isPreview' id='HTML005' locked='true' title='Ads HTML' type='HTML' version='2' visible='true'>
+                <b:widget cond='!data:view.isPreview' id='HTML005' locked='true' title='Ads HTML' type='HTML' version='2' visible='false'>
                   <b:widget-settings>
                     <b:widget-setting name='content'><![CDATA[<!-- replace all the code here with your ad code --><div class='ads-here'><i class='ads-img'></i><i class='ads-content'></i><i class='ads-button'></i></div>]]></b:widget-setting>
                   </b:widget-settings>
@@ -2764,7 +2764,7 @@ main{padding-right:25px}
           
           <aside class='sidebar'>
             <b:section id='sidebar-widget' showaddelement='true'>
-              <b:widget cond='data:view.isHomepage' id='Profile00' locked='false' title='Author' type='Profile' version='2' visible='true'>
+              <b:widget cond='data:view.isHomepage' id='Profile00' locked='false' title='Auteur' type='Profile' version='2' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='showaboutme'>true</b:widget-setting>
                   <b:widget-setting name='showlocation'>false</b:widget-setting>
@@ -2918,12 +2918,12 @@ main{padding-right:25px}
                 </b:includable>
                 <b:includable id='viewProfileLink'><b:comment>Removed</b:comment></b:includable>
               </b:widget>
-              <b:widget cond='data:view.isHomepage or data:view.isPost' id='PopularPosts00' locked='false' title='Popular Posts' type='PopularPosts' version='2' visible='true'>
+              <b:widget cond='data:view.isHomepage or data:view.isPost' id='PopularPosts00' locked='false' title='Populaires' type='PopularPosts' version='2' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='numItemsToShow'>4</b:widget-setting>
                   <b:widget-setting name='showThumbnails'>false</b:widget-setting>
                   <b:widget-setting name='showSnippets'>true</b:widget-setting>
-                  <b:widget-setting name='timeRange'>LAST_WEEK</b:widget-setting>
+                  <b:widget-setting name='timeRange'>ALL_TIME</b:widget-setting>
                 </b:widget-settings>
                 <b:includable id='main' var='this'>
                   <b:include name='widget-title'/>
@@ -3028,7 +3028,7 @@ main{padding-right:25px}
                   </div>
                 </b:includable>
               </b:widget>
-              <b:widget cond='!data:view.isSingleItem' id='Label00' locked='false' title='Label' type='Label' version='2' visible='true'>
+              <b:widget cond='!data:view.isSingleItem' id='Label00' locked='false' title='Catégories' type='Label' version='2' visible='true'>
                 <b:widget-settings>
                   <b:widget-setting name='sorting'>ALPHA</b:widget-setting>
                   <b:widget-setting name='display'>LIST</b:widget-setting>
@@ -3130,30 +3130,10 @@ main{padding-right:25px}
                   </ul>
                 </b:includable>
               </b:widget>
-              <b:widget cond='data:view.isSingleItem' id='FollowByEmail00' locked='false' title='Dapatkan Notifikasi' type='FollowByEmail' version='2' visible='true'>
-                <b:includable id='main'>
-                  <b:include name='widget-title'/>
-                  <b:include name='content'/>
-                </b:includable>
-                <b:includable id='content'>
-                  <div class='follow-by-email-inner'>
-                    <label class='follow-by-email-text' for='email-input'>Get updates right in your inbox. Join to get notified with all new stuff</label>
-                    
-                    <form expr:action='&quot;https://feedburner.google.com/fb/a/mailverify?uri=&quot; + data:feedPath' method='get' target='_blank'>
-                      <input autocomplete='on' class='follow-by-email-address' id='email-input' name='email' placeholder='e.g. youremail@gmail.com' type='email'/>
-                      <input class='follow-by-email-submit' expr:value='data:messages.subscribe' id='email-submit' type='submit'/>
-                      <label class='follow-by-email-label' for='email-submit'>
-                        <svg class='icon' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(2.000000, 3.000000)'><path d='M14.1972579,8.17124146e-14 C17.3979916,0.00978563072 19.990286,2.62120148 20,5.84554455 L20,5.84554455 L20,7.30693069 L19.99354,7.4036631 C19.9466817,7.75161611 19.6506049,8.01980198 19.2923485,8.01980198 L19.2923485,8.01980198 L19.2835029,8.0019802 L19.1721336,7.99309967 C19.0257158,7.96959451 18.889286,7.90013647 18.7831177,7.79318503 C18.6504073,7.65949573 18.5758514,7.47817413 18.5758514,7.28910891 L18.5758514,7.28910891 L18.5758514,5.84554455 C18.5518871,3.41954659 16.6054921,1.45879454 14.1972579,1.43465347 L14.1972579,1.43465347 L5.80274215,1.43465347 C3.39450789,1.45879454 1.44811291,3.41954659 1.42414861,5.84554455 L1.42414861,5.84554455 L1.42414861,12.1544554 C1.44811291,14.5804534 3.39450789,16.5412055 5.80274215,16.5653465 L5.80274215,16.5653465 L14.1972579,16.5653465 C16.6054921,16.5412055 18.5518871,14.5804534 18.5758514,12.1544554 C18.6163388,11.7890822 18.922975,11.5127474 19.2879257,11.5127474 C19.6528764,11.5127474 19.9595126,11.7890822 20,12.1544554 C19.990286,15.3787985 17.3979916,17.9902144 14.1972579,18 L14.1972579,18 L5.80274215,18 C2.599996,17.995093 0.00487110525,15.3808258 -1.42108547e-14,12.1544554 L-1.42108547e-14,12.1544554 L-1.42108547e-14,5.84554455 C-1.42108547e-14,2.61713944 2.59797615,8.17124146e-14 5.80274215,8.17124146e-14 L5.80274215,8.17124146e-14 Z M4.29443312,5.38692655 C4.48070099,5.36682207 4.6671823,5.42289927 4.81203008,5.54257426 L4.81203008,5.54257426 L8.96948253,8.85742574 C9.48880627,9.2678976 10.2192875,9.2678976 10.7386112,8.85742574 L10.7386112,8.85742574 L14.8518355,5.54257426 L14.8606811,5.54257426 L14.9473987,5.48291804 C15.2462388,5.30808809 15.6344967,5.37260085 15.8602388,5.64950495 C15.9785304,5.79800076 16.0329385,5.98799536 16.0113373,6.17714498 C15.9897361,6.36629461 15.8939207,6.53887938 15.7452455,6.65643564 L15.7452455,6.65643564 L11.6320212,9.98019802 C10.5861526,10.8280382 9.09540423,10.8280382 8.0495356,9.98019802 L8.0495356,9.98019802 L3.92746572,6.65643564 L3.8513546,6.58355583 C3.61891283,6.32594359 3.59998262,5.92999594 3.821318,5.64950495 C3.93770999,5.50163353 4.10816526,5.40703103 4.29443312,5.38692655 Z'/></g></svg>
-                      </label>
-                      <input expr:value='data:feedPath' name='uri' type='hidden'/>
-                      <input name='loc' type='hidden' value='en_US'/>
-                    </form>
-                  </div>
-                </b:includable>
-              </b:widget>
             </b:section>
+            
             <b:section cond='data:blog.isMobileRequest == &quot;false&quot;' id='sidebar-sticky' showaddelement='true'>
-              <b:widget cond='!data:view.isPreview' id='HTML004' locked='true' title='Ads Sidebar' type='HTML' version='2' visible='true'>
+              <b:widget cond='!data:view.isPreview' id='HTML004' locked='true' title='Ads Sidebar' type='HTML' version='2' visible='false'>
                 <b:widget-settings>
                   <b:widget-setting name='content'><![CDATA[<!-- replace all the code here with your ad code --><div class='ads-here in-article'><i class='ads-img'></i><i class='ads-content'></i><i class='ads-button'></i></div>]]></b:widget-setting>
                 </b:widget-settings>
@@ -3169,7 +3149,7 @@ main{padding-right:25px}
         
         <footer class='footbar'>
           <div class='credit'>
-            <p class='credit-content'>&#169; <span id='copyrightYear'><script>var d = new Date(); var n = d.getFullYear(); document.getElementById(&#39;copyrightYear&#39;).innerHTML = n;</script></span> &#8231; <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. All Rights Reserved <span class='creator'/></p>
+            <p class='credit-content'>&#169; <span id='copyrightYear'><script>var d = new Date(); var n = d.getFullYear(); document.getElementById(&#39;copyrightYear&#39;).innerHTML = n;</script></span> &#8231; <a expr:href='data:blog.homepageUrl'><data:blog.title/></a>. Reservée a Tous<span class='creator'/></p>
           </div>
         </footer>  
         <b:else/>
@@ -3213,7 +3193,7 @@ main{padding-right:25px}
                     <!-- Link Icon -->
                     <svg class='icon' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(2.000000, 2.000000)'><path d='M19.2351648,10.6772248 C19.6575716,10.6772248 20,10.334646 20,9.91205367 L20,8.89182545 C20,4.84609283 18.1978022,2.87599695 14.5054945,2.87599695 L11.7802198,2.87599695 C11.3365661,2.87810205 10.9172736,2.67324132 10.6461538,2.32190748 L9.76703297,1.15216305 C9.19910638,0.423105508 8.32609921,-0.0022260158 7.4021978,0 L5.48571429,0 C1.84615385,0 0,2.10203071 0,6.25330418 L0,13.7554997 C0,17.6077407 2.39120879,20 6.25054945,20 L13.7406593,20 C17.5912088,20 19.9912088,17.6077407 19.9912088,13.7554997 C19.9491205,13.3621883 19.6173632,13.0639212 19.221978,13.0639212 C18.8265928,13.0639212 18.4948355,13.3621883 18.4527473,13.7554997 C18.4527473,16.7897991 16.7824176,18.4696577 13.7406593,18.4696577 L6.24175824,18.4696577 C3.2,18.4696577 1.52967033,16.7985942 1.52967033,13.7554997 L1.52967033,13.0255088 L13.8373626,13.0255088 C14.2597694,13.0255088 14.6021978,12.68293 14.6021978,12.2603376 C14.6021978,11.8377452 14.2597694,11.4951664 13.8373626,11.4951664 L1.52967033,11.4951664 L1.52967033,6.21812389 C1.52967033,2.91117723 2.70769231,1.49517082 5.47692308,1.49517082 L7.41098901,1.49517082 C7.854606,1.50172958 8.27146542,1.70863441 8.54505495,2.05805535 L9.42417582,3.21900471 C9.98216939,3.95874311 10.8538928,4.39479629 11.7802198,4.39754422 L14.4967033,4.39754422 C17.3538462,4.39754422 18.4615385,5.6728295 18.4615385,8.89182545 L18.4615385,9.91205367 C18.461525,10.1165228 18.5433112,10.3124919 18.6886527,10.4562448 C18.8339941,10.5999978 19.030799,10.6795751 19.2351648,10.6772248 Z'/></g></svg>
                     <!-- Teks link -->
-                    <span class='name' itemprop='name'>Category</span>
+                    <span class='name' itemprop='name'>Categories</span>
                     <!-- Arrow Icon -->
                     <svg class='icon name' viewBox='0 0 512 512'><path d='M256 294.1L383 167c9.4-9.4 24.6-9.4 33.9 0s9.3 24.6 0 34L273 345c-9.1 9.1-23.7 9.3-33.1.7L95 201.1c-4.7-4.7-7-10.9-7-17s2.3-12.3 7-17c9.4-9.4 24.6-9.4 33.9 0l127.1 127z'/></svg>
                   </label>
@@ -3232,7 +3212,7 @@ main{padding-right:25px}
                     <!-- Link Icon -->
                     <svg class='icon' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(4.000000, 2.000000)'><path d='M5.88450545,12.7673223 C7.32107647,12.6441193 8.76545208,12.6441193 10.2020231,12.7673223 C10.9876051,12.819974 11.7678606,12.9347129 12.5355802,13.1104786 C14.1961639,13.4448359 15.2799133,14.1047518 15.7343888,15.0726283 C16.0974922,15.8767717 16.08789,16.80158 15.7081691,17.5979063 C15.2449536,18.5657829 14.1612043,19.2256987 12.4744008,19.568855 C11.7092951,19.7410988 10.9319902,19.8528915 10.1495836,19.9032123 C9.2843321,20 8.5501793,20 7.86846599,20 L7.59752865,20 C7.21132744,19.9581349 6.91855939,19.6299512 6.91855939,19.2388971 C6.91855939,18.8478429 7.21132744,18.5196592 7.59752865,18.4777941 L7.59752865,18.4777941 L8.19552997,18.4776566 C8.7948969,18.470645 9.39795098,18.4425986 10.0010051,18.3898053 C10.7124372,18.3432116 11.4194216,18.2432131 12.1160643,18.0906435 C13.3134326,17.8266771 14.0650652,17.4483254 14.3010429,16.9467893 C14.484604,16.5631348 14.484604,16.1161987 14.3010429,15.7325442 C14.0650652,15.2222093 13.3134326,14.8262598 12.1422841,14.5886901 C11.4348379,14.4289038 10.7159053,14.3259265 9.99226515,14.2807293 C8.64034215,14.1575279 7.28012802,14.1575279 5.92820502,14.2807293 C5.21388459,14.3273105 4.50399397,14.4273069 3.80440586,14.5798912 C2.6070376,14.8438575 1.86414489,15.2222093 1.61942729,15.7237453 C1.53272302,15.9142245 1.48799947,16.1213408 1.48832858,16.3308679 C1.48783807,16.5432444 1.53254045,16.7532629 1.61942729,16.9467893 C2.03541113,17.5187562 2.66831687,17.8915039 3.36741014,17.9762581 L3.36741014,17.9762581 L3.46883074,18.003768 C3.69882672,18.0836728 3.87936538,18.2709306 3.94969781,18.5098707 C4.03007773,18.7829451 3.95322349,19.0783682 3.75020277,19.2767179 C3.54718205,19.4750675 3.25156561,19.5435453 2.98285392,19.4544696 C1.85607336,19.2695203 0.86780853,18.5933528 0.282220408,17.6067052 C-0.0940734694,16.8075691 -0.0940734694,15.8805633 0.282220408,15.0814272 C0.745435864,14.087154 1.82918523,13.4448359 3.49850886,13.1016797 C4.28445329,12.9305221 5.08200812,12.8187582 5.88450545,12.7673223 Z M5.96471469,0.407206951 C7.95471011,-0.421671419 10.2447427,0.0383955276 11.7663081,1.57274551 C13.2878734,3.1070955 13.7410933,5.41333076 12.9145002,7.41538679 C12.0879072,9.41744281 10.1444105,10.7207439 7.99082479,10.717191 C5.05464341,10.7123299 2.67695692,8.31466134 2.67695692,5.35866706 L2.67695692,5.35866706 L2.68189526,5.12722783 C2.77053718,3.05238043 4.04579053,1.20648252 5.96471469,0.407206951 Z M7.99082479,1.53114502 C6.98099466,1.52881803 6.01172919,1.93104061 5.29685022,2.6490918 C4.58197126,3.367143 4.18021208,4.34202145 4.18021208,5.35866706 C4.17668538,6.91110569 5.10286315,8.31266199 6.52650415,8.90922336 C7.95014515,9.50578474 9.59058472,9.17974169 10.6822224,8.08325997 C11.77386,6.98677826 12.1014841,5.3360245 11.512191,3.90141287 C10.9228979,2.46680125 9.53286415,1.53114502 7.99082479,1.53114502 Z'/></g></svg>
                     <!-- Teks link -->
-                    <span class='name' itemprop='name'>About</span>
+                    <span class='name' itemprop='name'>A propos</span>
                   </a>
                 </li>
                 <!-- Contact link -->
@@ -3241,7 +3221,7 @@ main{padding-right:25px}
                     <!-- Link Icon -->
                     <svg class='icon' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(2.000000, 3.000000)'><path d='M14.1972579,8.17124146e-14 C17.3979916,0.00978563072 19.990286,2.62120148 20,5.84554455 L20,5.84554455 L20,7.30693069 L19.99354,7.4036631 C19.9466817,7.75161611 19.6506049,8.01980198 19.2923485,8.01980198 L19.2923485,8.01980198 L19.2835029,8.0019802 L19.1721336,7.99309967 C19.0257158,7.96959451 18.889286,7.90013647 18.7831177,7.79318503 C18.6504073,7.65949573 18.5758514,7.47817413 18.5758514,7.28910891 L18.5758514,7.28910891 L18.5758514,5.84554455 C18.5518871,3.41954659 16.6054921,1.45879454 14.1972579,1.43465347 L14.1972579,1.43465347 L5.80274215,1.43465347 C3.39450789,1.45879454 1.44811291,3.41954659 1.42414861,5.84554455 L1.42414861,5.84554455 L1.42414861,12.1544554 C1.44811291,14.5804534 3.39450789,16.5412055 5.80274215,16.5653465 L5.80274215,16.5653465 L14.1972579,16.5653465 C16.6054921,16.5412055 18.5518871,14.5804534 18.5758514,12.1544554 C18.6163388,11.7890822 18.922975,11.5127474 19.2879257,11.5127474 C19.6528764,11.5127474 19.9595126,11.7890822 20,12.1544554 C19.990286,15.3787985 17.3979916,17.9902144 14.1972579,18 L14.1972579,18 L5.80274215,18 C2.599996,17.995093 0.00487110525,15.3808258 -1.42108547e-14,12.1544554 L-1.42108547e-14,12.1544554 L-1.42108547e-14,5.84554455 C-1.42108547e-14,2.61713944 2.59797615,8.17124146e-14 5.80274215,8.17124146e-14 L5.80274215,8.17124146e-14 Z M4.29443312,5.38692655 C4.48070099,5.36682207 4.6671823,5.42289927 4.81203008,5.54257426 L4.81203008,5.54257426 L8.96948253,8.85742574 C9.48880627,9.2678976 10.2192875,9.2678976 10.7386112,8.85742574 L10.7386112,8.85742574 L14.8518355,5.54257426 L14.8606811,5.54257426 L14.9473987,5.48291804 C15.2462388,5.30808809 15.6344967,5.37260085 15.8602388,5.64950495 C15.9785304,5.79800076 16.0329385,5.98799536 16.0113373,6.17714498 C15.9897361,6.36629461 15.8939207,6.53887938 15.7452455,6.65643564 L15.7452455,6.65643564 L11.6320212,9.98019802 C10.5861526,10.8280382 9.09540423,10.8280382 8.0495356,9.98019802 L8.0495356,9.98019802 L3.92746572,6.65643564 L3.8513546,6.58355583 C3.61891283,6.32594359 3.59998262,5.92999594 3.821318,5.64950495 C3.93770999,5.50163353 4.10816526,5.40703103 4.29443312,5.38692655 Z'/></g></svg>
                     <!-- Teks link -->
-                    <span class='name' itemprop='name'>Contact Us</span>
+                    <span class='name' itemprop='name'>Contacter</span>
                   </a>
                 </li>
                 <li class='break'>
@@ -3258,7 +3238,7 @@ main{padding-right:25px}
                     <!-- Link Icon -->
                     <svg class='icon' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(3.000000, 2.000000)'><path d='M12.8534107,-1.95399252e-14 C16.0667634,-1.95399252e-14 17.9912917,1.95143488 18,5.20971302 L18,5.20971302 L18,14.790287 C18,18.0485651 16.08418,20 12.862119,20 L12.862119,20 L10.0058055,20 C9.63949884,19.9590452 9.36223544,19.6452022 9.36223544,19.2715232 C9.36223544,18.8978441 9.63949884,18.5840011 10.0058055,18.5430464 L10.0058055,18.5430464 L12.8534107,18.5430464 C15.3091437,18.5430464 16.5457184,17.2803532 16.5457184,14.790287 L16.5457184,14.790287 L16.5457184,5.20971302 C16.5457184,2.7196468 15.3091437,1.45695364 12.8534107,1.45695364 L12.8534107,1.45695364 L5.13788099,1.45695364 C2.68214804,1.45695364 1.43686502,2.7196468 1.43686502,5.20971302 L1.43686502,5.20971302 L1.43686502,14.790287 C1.43686502,17.2803532 2.68214804,18.5430464 5.13788099,18.5430464 C5.50418766,18.5840011 5.78145107,18.8978441 5.78145107,19.2715232 C5.78145107,19.6452022 5.50418766,19.9590452 5.13788099,20 C1.9245283,20 -3.55271368e-15,18.0485651 -3.55271368e-15,14.790287 L-3.55271368e-15,14.790287 L-3.55271368e-15,5.20971302 C-3.55271368e-15,1.94260486 1.9245283,-1.95399252e-14 5.13788099,-1.95399252e-14 L5.13788099,-1.95399252e-14 Z M12.5921626,13.5099338 C12.9865372,13.5099338 13.3062409,13.8341073 13.3062409,14.2339956 C13.3062409,14.6338839 12.9865372,14.9580574 12.5921626,14.9580574 L12.5921626,14.9580574 L5.38171263,14.9580574 C4.98733803,14.9580574 4.66763425,14.6338839 4.66763425,14.2339956 C4.66763425,13.8341073 4.98733803,13.5099338 5.38171263,13.5099338 L5.38171263,13.5099338 Z M12.5921626,9.27152318 C12.8677202,9.24071456 13.1363773,9.37243477 13.283685,9.61057053 C13.4309927,9.84870629 13.4309927,10.1512937 13.283685,10.3894295 C13.1363773,10.6275652 12.8677202,10.7592854 12.5921626,10.7284768 L12.5921626,10.7284768 L5.38171263,10.7284768 C5.01540595,10.687522 4.73814255,10.373679 4.73814255,10 C4.73814255,9.62632096 5.01540595,9.31247796 5.38171263,9.27152318 L5.38171263,9.27152318 Z M8.13352685,5.0419426 C8.49983352,5.08289739 8.77709693,5.39674039 8.77709693,5.77041943 C8.77709693,6.14409846 8.49983352,6.45794146 8.13352685,6.49889625 L8.13352685,6.49889625 L5.3904209,6.49889625 C5.02411423,6.45794146 4.74685082,6.14409846 4.74685082,5.77041943 C4.74685082,5.39674039 5.02411423,5.08289739 5.3904209,5.0419426 L5.3904209,5.0419426 Z'/></g></svg>
                     <!-- Teks link -->
-                    <span class='name' itemprop='name'>Sitemap</span>
+                    <span class='name' itemprop='name'>Plan du site</span>
                   </a>
                 </li>
                 <li>
@@ -3266,7 +3246,7 @@ main{padding-right:25px}
                     <!-- Link Icon -->
                     <svg class='icon' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><g transform='translate(2.000000, 2.000000)'><path d='M18.5593769,6.79017287 C18.9610428,6.79500189 19.2840764,7.12128333 19.2840764,7.52209253 L19.2840764,7.52209253 L19.2840764,13.9947315 C19.2840764,17.6984213 16.9685732,20 13.2566978,20 L13.2566978,20 L10.3048731,20 C9.89829739,20 9.56733821,19.6737307 9.56249802,19.2680803 C9.56727055,18.8609709 9.89686386,18.5321044 10.3048731,18.5273424 L10.3048731,18.5273424 L13.2566978,18.5273424 C16.1820091,18.5273424 17.7993263,16.9224101 17.8258397,13.9947315 L17.8258397,13.9947315 L17.8258397,7.52209253 C17.8258397,7.11786446 18.1542555,6.79017287 18.5593769,6.79017287 Z M12.5231605,0.776086015 C12.9297074,0.780915527 13.2566978,1.11114487 13.2566978,1.51682398 C13.2566978,1.71247872 13.1782169,1.89999431 13.0387346,2.0375122 C12.8992522,2.1750301 12.7103957,2.25110093 12.5143227,2.24874365 L12.5143227,2.24874365 L6.01854081,2.24874365 C3.09322949,2.24874365 1.47591236,3.86249422 1.47591236,6.79017287 L1.47591236,6.79017287 L1.47591236,13.9947315 C1.47591236,16.9224101 3.09322949,18.5273424 6.01854081,18.5273424 C6.42655005,18.5321044 6.75614336,18.8609709 6.76091588,19.2680803 C6.7560757,19.6737307 6.42511652,20 6.01854081,20 C2.30666542,20 3.55271368e-15,17.6984213 3.55271368e-15,13.9947315 L3.55271368e-15,13.9947315 L3.55271368e-15,6.79017287 C3.55271368e-15,3.07766471 2.30666542,0.776086015 6.01854081,0.776086015 L6.01854081,0.776086015 Z M13.6405699,7.47415709 C13.8986602,7.29834112 14.2463981,7.30338911 14.5010412,7.49883643 C14.7875146,7.71871466 14.8707838,8.11403406 14.697259,8.43037837 L14.697259,8.43037837 L11.8691634,12.0723401 C11.745354,12.2248371 11.5687763,12.3255161 11.3742467,12.354526 C11.1806403,12.3741653 10.9870465,12.3171652 10.835141,12.1957964 L10.835141,12.1957964 L8.12193686,10.0705839 L5.68270446,13.2363569 C5.56639108,13.3942512 5.39148033,13.4990132 5.19712938,13.52719 C5.00277843,13.5553667 4.80522024,13.5046048 4.64868203,13.3862681 C4.32921663,13.1363618 4.27016334,12.6767618 4.51611505,12.354526 L4.51611505,12.354526 L7.40607518,8.59792625 C7.52663161,8.44217824 7.70434594,8.34069843 7.89999886,8.31588215 C8.09565177,8.29106586 8.2931598,8.34495309 8.4489354,8.46565161 L8.4489354,8.46565161 L11.1621396,10.5908641 L13.5483452,7.54854746 Z M16.401155,0.199963635 C17.3717893,-0.204098898 18.4908164,0.015529541 19.2357623,0.756304368 C19.9807081,1.49707919 20.2046334,2.61288381 19.8029872,3.5827487 C19.4013411,4.55261359 18.4533477,5.1852406 17.4016253,5.1852406 C15.9700611,5.1852406 14.8081818,4.02987504 14.8032974,2.60147601 L14.8032974,2.60147601 L14.8091938,2.41743042 C14.8751213,1.44242571 15.4876169,0.580257785 16.401155,0.199963635 Z M17.4016253,1.48155075 C16.7817407,1.48155075 16.2792249,1.98295837 16.2792249,2.60147601 C16.2792249,3.21999366 16.7817407,3.72140128 17.4016253,3.72140128 C18.02151,3.72140128 18.5240257,3.21999366 18.5240257,2.60147601 C18.5240257,1.98295837 18.02151,1.48155075 17.4016253,1.48155075 Z'/></g></svg>
                     <!-- Teks link -->
-                    <span class='name' itemprop='name'>Disclaimer</span>
+                    <span class='name' itemprop='name'>Conditions</span>
                   </a>
                 </li>
                 <li>
@@ -3381,7 +3361,7 @@ window.lazySizesConfig=window.lazySizesConfig||{},lazySizesConfig.loadMode=1,laz
 
 ( function() {var youtube = document.querySelectorAll(".lazy-youtube"); for (var i = 0; i < youtube.length; i++) {var source = "https://img.youtube.com/vi/"+ youtube[i].dataset.embed +"/sddefault.jpg"; var image = new Image(); image.setAttribute("class", "lazy"); image.setAttribute("data-src",source); image.setAttribute("src","data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="); image.setAttribute("alt","Youtube video"); image.addEventListener( "load", function() {youtube[ i ].appendChild( image );}( i ) ); youtube[i].addEventListener( "click", function() {var iframe = document.createElement( "iframe" ); iframe.setAttribute( "frameborder", "0" ); iframe.setAttribute( "allowfullscreen", "" ); iframe.setAttribute( "src", "https://www.youtube.com/embed/"+ this.dataset.embed +"?rel=0&showinfo=0&autoplay=1" ); this.innerHTML = ""; this.appendChild( iframe ); }); }; })();
 function changeFont(){var x=document.getElementById('post-font');if(x.classList)x.classList.toggle('active');else{var z=x.className.split(' ');0<=(t=z.indexOf('active'))?z.splice(t,1):z.push('active'),x.className=z.join(' ')}};
-function copyFunction(){document.getElementById("getlink").select(),document.execCommand("copy"),document.getElementById("share-notif").innerHTML="<span>Link copied!</span>" }; var uri = window.location.toString();if (uri.indexOf("?m=1","?m=1") > 0) {var clean_uri = uri.substring(0, uri.indexOf("?m=1"));window.history.replaceState({}, document.title, clean_uri);}
+function copyFunction(){document.getElementById("getlink").select(),document.execCommand("copy"),document.getElementById("share-notif").innerHTML="<span>Lien copiée!</span>" }; var uri = window.location.toString();if (uri.indexOf("?m=1","?m=1") > 0) {var clean_uri = uri.substring(0, uri.indexOf("?m=1"));window.history.replaceState({}, document.title, clean_uri);}
 /*]]>*/
       </script>
       <b:include cond='data:view.isMultipleItems' name='postPagination-more'/>
