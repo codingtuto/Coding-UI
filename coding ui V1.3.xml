@@ -3363,6 +3363,11 @@ function copyFunction(){document.getElementById("getlink").select(),document.exe
 $("body").append($('<span class="mteffect"></span>')),$(document).on("click",function(n){var i=n.clientX,a=n.clientY;$(".mteffect").css({top:a-30,left:i-30}).addClass("active")}),$(".mteffect").on("animationend webkitAnimationEnd oAnimationEnd oanimationend MSAnimationEnd",function(){$(".mteffect").removeClass("active")});
 //]]>
 </script>
+    <!-- Mouse effect on deskopt view-->
+ <style>
+html,body{cursor:url(&quot;https://i.imgur.com/5v5M8gh.png&quot;), auto;}
+a:hover{cursor:url(&quot;https://i.imgur.com/IXULuQ1.png&quot;), auto;}
+</style>
     
   &lt;!--</body>--&gt;&lt;/body&gt;
 </html>
