@@ -11,7 +11,7 @@ Coding UI a un design élégant et épuré, il s'agit d'un thème entièrement r
 
 👉  This template is free for commercial and personal use.
 
-👉 Codeing UI Blogger Template 's minimal design and Dark Mode Support , making it easy for readers to engage with the site.
+👉 Coding UI Blogger Template 's minimal design and Dark Mode Support , making it easy for readers to engage with the site.
 
 ## Fonctionnalités
 - 100% réactif
