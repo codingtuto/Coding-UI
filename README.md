@@ -4,6 +4,15 @@
 ![Logo](https://telegra.ph/file/91c098c67f50a418bb3f9.jpg)
 # Coding-UI
 Coding UI a un design élégant et épuré, il s'agit d'un thème entièrement réactif et hautement optimisé avec d'excellentes fonctionnalités de référencement, il peut ajuster automatiquement sa largeur en fonction de la taille de l'écran des utilisateurs ou du type d'appareil. L'optimisation pour la vitesse et le référencement, la barre latérale droite, le style galerie, les coins arrondis, un design exclusif pour Blogger, les publicités prêtes, les colonnes de pied de page, le curseur, les icônes de signet social, le menu déroulant, commentaires filetés bien conçus et page d'erreur 404 personnalisée.
+
+👉 Coding Ui Blogger Template is a having a sleek and clean design, it is a fully responsive and highly optimized theme with excellent SEO features.
+
+👉 It is a completely free, open source (MIT License) and customizable/ premium  blogger template for any niche news and magazine style website.
+
+👉  This template is free for commercial and personal use.
+
+👉 Code UI Blogger Template 's minimal design and Dark Mode Support , making it easy for readers to engage with the site.
+
 ## Fonctionnalités
 - 100% réactif
 - Mode Jour/Nuit
