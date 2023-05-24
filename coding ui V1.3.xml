@@ -70,15 +70,15 @@
   <meta expr:content='data:blog.canonicalUrl' property='og:url'/>
   
   <!-- Site Owner -->
-  <meta content='Aliou' name='Author'/>
-  <link href='https://www.facebook.com/anonymmouscoder' rel='me'/>
-  <link href='https://www.facebook.com/anonymmouscoder' rel='author'/>
-  <link href='https://www.facebook.com/kiibao' rel='publisher'/>
-  <meta content='100001578783517' property='fb:admins'/>
-  <meta content='696750553739909' property='fb:pages'/>
-  <meta content='1804789006468790' property='fb:app_id'/>
-  <meta content='https://www.facebook.com/100001578783517' property='article:author'/>
-  <meta content='https://www.facebook.com/100001578783517' property='article:publisher'/>
+  <meta content='Name here' name='Author'/>
+  <link href='https://www.facebook.com/xxxxx' rel='me'/>
+  <link href='https://www.facebook.com/xxxxx' rel='author'/>
+  <link href='https://www.facebook.com/xxxx' rel='publisher'/>
+  <meta content='xxxxxx' property='fb:admins'/>
+  <meta content='xxxxxxx' property='fb:pages'/>
+  <meta content='xxxxxxxx' property='fb:app_id'/>
+  <meta content='https://www.facebook.com/xxxxxx' property='article:author'/>
+  <meta content='https://www.facebook.com/xxxxx' property='article:publisher'/>
   <meta content='' name='twitter:site'/>
   <meta content='' name='twitter:creator'/>
 
