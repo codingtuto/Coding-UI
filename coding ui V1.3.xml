@@ -3368,6 +3368,38 @@ $("body").append($('<span class="mteffect"></span>')),$(document).on("click",fun
 html,body{cursor:url(&quot;https://i.imgur.com/5v5M8gh.png&quot;), auto;}
 a:hover{cursor:url(&quot;https://i.imgur.com/IXULuQ1.png&quot;), auto;}
 </style>
-    
+<!-- Review Star Rating In Google Search Results -->
+<script type='application/ld+json'>
+{
+&quot;@context&quot;:&quot;https://schema.org&quot;,
+&quot;@type&quot;:&quot;Review&quot;,
+&quot;author&quot;: {
+&quot;@type&quot;:&quot;Person&quot;,
+&quot;name&quot;:&quot;Muhammed Fasil K&quot;,
+&quot;sameAs&quot;:&quot;https://www.blogger.com/profile/12071624565375682546&quot;
+},
+&quot;url&quot;: &quot;<data:blog.canonicalUrl/>&quot;,
+&quot;datePublished&quot;:&quot;<data:post.dateHeader/>&quot;,
+&quot;publisher&quot;: {
+&quot;@type&quot;:&quot;Organization&quot;,
+&quot;name&quot;:&quot;<data:blog.title/>&quot;,
+&quot;sameAs&quot;:&quot;<data:blog.homepageUrl/>&quot;
+},
+&quot;description&quot;:&quot;<data:blog.metaDescription/>&quot;,
+&quot;inLanguage&quot;:&quot;en&quot;,
+&quot;itemReviewed&quot;: {
+&quot;@type&quot;:&quot;Product&quot;,
+&quot;name&quot;: &quot;<data:blog.pageName/>&quot;,
+&quot;sameAs&quot;: &quot;<data:blog.canonicalUrl/>&quot;,
+&quot;image&quot;: &quot;<data:blog.postImageThumbnailUrl/>&quot;,
+&quot;aggregateRating&quot;: {
+&quot;@type&quot;: &quot;AggregateRating&quot;,
+&quot;ratingValue&quot;: &quot;4.5&quot;,
+&quot;bestRating&quot;: &quot;5&quot;,
+&quot;ratingCount&quot;: &quot;11&quot;
+}
+}
+}
+</script> 
   &lt;!--</body>--&gt;&lt;/body&gt;
 </html>
