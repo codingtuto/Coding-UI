@@ -3375,8 +3375,8 @@ a:hover{cursor:url(&quot;https://i.imgur.com/IXULuQ1.png&quot;), auto;}
 &quot;@type&quot;:&quot;Review&quot;,
 &quot;author&quot;: {
 &quot;@type&quot;:&quot;Person&quot;,
-&quot;name&quot;:&quot;Muhammed Fasil K&quot;,
-&quot;sameAs&quot;:&quot;https://www.blogger.com/profile/12071624565375682546&quot;
+&quot;name&quot;:&quot;YOUR NAME HERE&quot;,
+&quot;sameAs&quot;:&quot;YOUR BLOGGER LINK PROFILE&quot;
 },
 &quot;url&quot;: &quot;<data:blog.canonicalUrl/>&quot;,
 &quot;datePublished&quot;:&quot;<data:post.dateHeader/>&quot;,
