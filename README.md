@@ -1,3 +1,7 @@
+## Coding UI - Next Generation Blogger template
+
+![HTML](https://img.shields.io/badge/HTML-Code-orange)  ![CSS](https://img.shields.io/badge/CSS-Code-blue)  ![JavaScript](https://img.shields.io/badge/JavaScript-Code-yellow)  ![XML](https://img.shields.io/badge/XML-Code-green) [![Contributors](https://img.shields.io/github/contributors/codingtuto/Coding-UI)](https://github.com/codingtuto/Coding-UI/graphs/contributors)  [![Forks](https://img.shields.io/github/forks/codingtuto/Coding-UI)](https://github.com/codingtuto/Coding-UI/network/members)  [![Stars](https://img.shields.io/github/stars/codingtuto/Coding-UI)](https://github.com/codingtuto/Coding-UI/stargazers) 
+
 # Coding-UI [![Langue](https://img.shields.io/badge/Langue-Français%20(French)-blue.svg)](README_FR.md)
 
 Coding UI est un thème au design élégant et épuré, entièrement réactif et hautement optimisé avec d'excellentes fonctionnalités de référencement. Il peut ajuster automatiquement sa largeur en fonction de la taille de l'écran des utilisateurs ou du type d'appareil. L'optimisation pour la vitesse et le référencement, la barre latérale droite, le style galerie, les coins arrondis, un design exclusif pour Blogger, les publicités prêtes, les colonnes de pied de page, le curseur, les icônes de signet social, le menu déroulant, les commentaires filetés bien conçus et la page d'erreur 404 personnalisée.
@@ -65,7 +69,5 @@ Coding UI has a sleek and clean design. It is a fully responsive and highly opti
 ![Logo](https://telegra.ph/file/91c098c67f50a418bb3f9.jpg)
 # Version 1.1
 ![Logo](https://telegra.ph/file/68047095b7d4afd5f9f7e.jpg)
-
-[![Contributors / Contributeurs](https://img.shields.io/github/contributors/codingtuto/Coding-UI)](https://github.com/codingtuto/Coding-UI/graphs/contributors)
 
 [Back To Top / Retour en haut](#readme)
